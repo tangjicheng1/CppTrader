@@ -4,6 +4,7 @@
         "-I${workspaceFolder}/modules/CppCommon/include",
         "-I${workspaceFolder}/modules/CppBenchmark/include",
         "-I${workspaceFolder}/modules/fmt/include",
+        "-I${workspaceFolder}/modules/cpp-optparse",
         "-std=c++23"
     ],
     "mesonbuild.configureOnOpen": false
