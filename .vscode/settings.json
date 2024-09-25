@@ -3,5 +3,6 @@
         "-I${workspaceFolder}/modules/CppCommon/include",
         "-I${workspaceFolder}/include",
         "-std=c++23"
-    ]
+    ],
+    "mesonbuild.configureOnOpen": false
 }
