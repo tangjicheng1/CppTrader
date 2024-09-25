@@ -1,11 +1,7 @@
 {
     "clangd.fallbackFlags": [
-        "-I${workspaceFolder}/external/include",
-        "-I${workspaceFolder}/src",
-        "-I${workspaceFolder}/test",
-        "-I${workspaceFolder}/app",
-        "-I${workspaceFolder}/third_party",
-        "-I${workspaceFolder}/third_party/ezfix",
-        "-std=c++20"
+        "-I${workspaceFolder}/modules/CppCommon/include",
+        "-I${workspaceFolder}/include",
+        "-std=c++23"
     ]
 }
