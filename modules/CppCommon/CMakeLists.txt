@@ -40,9 +40,6 @@ if(WIN32 OR MSYS)
   find_package(Userenv)
 endif()
 
-# Modules
-add_subdirectory("modules")
-
 # Link libraries
 list(APPEND LINKLIBS Threads::Threads)
 if(UNIX AND NOT APPLE AND NOT MSYS)

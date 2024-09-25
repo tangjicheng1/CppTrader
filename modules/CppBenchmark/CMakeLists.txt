@@ -29,9 +29,6 @@ include(SystemInformation)
 # External packages
 find_package(Threads REQUIRED)
 
-# Modules
-add_subdirectory("modules")
-
 # Link libraries
 list(APPEND LINKLIBS Threads::Threads)
 
