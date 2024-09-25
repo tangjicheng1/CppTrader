@@ -2,6 +2,7 @@
     "clangd.fallbackFlags": [
         "-I${workspaceFolder}/include",
         "-I${workspaceFolder}/modules/CppCommon/include",
+        "-I${workspaceFolder}/modules/CppBenchmark/include",
         "-I${workspaceFolder}/modules/fmt/include",
         "-std=c++23"
     ],
