@@ -1,7 +1,7 @@
 *.log
 
 # Build
-build
+build2
 
 # CMake
 build
