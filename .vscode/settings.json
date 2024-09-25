@@ -1,8 +1,8 @@
 {
     "clangd.fallbackFlags": [
-        "-I${workspaceFolder}/modules/CppCommon/include",
         "-I${workspaceFolder}/include",
-        "-I${workspaceFolder}/modules/CppCommon/modules/fmt/include",
+        "-I${workspaceFolder}/modules/CppCommon/include",
+        "-I${workspaceFolder}/modules/fmt/include",
         "-std=c++23"
     ],
     "mesonbuild.configureOnOpen": false
