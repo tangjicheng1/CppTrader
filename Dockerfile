@@ -5,7 +5,7 @@ ENV TZ=Asia/Tokyo
 RUN dnf install -y gcc-toolset-13 && dnf clean all
 RUN source /opt/rh/gcc-toolset-13/enable
 
-RUN dnf install -y git wget vim cmake make && dnf clean all
+RUN dnf install -y git wget vim cmake make libuuid-devel && dnf clean all
 
 ENV PATH /opt/rh/gcc-toolset-13/root/usr/bin:$PATH
 ENV LD_LIBRARY_PATH /opt/rh/gcc-toolset-13/root/usr/lib64:$LD_LIBRARY_PATH
